@@ -9,39 +9,134 @@
 <body>
 
     <header>
-        <h1>Cafe Kato</h1>
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">Menu</a>
-            <a href="#">Contact</a>
-        </nav>
+        <div class="container header-container">
+            <h1 class="logo">Cafe Kato</h1>
+            <nav>
+                <a href="#hero">Home</a>
+                <a href="#about">About</a>
+                <a href="#menu">Menu</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
     </header>
 
-    <section class="hero">
-        <h2>Relax and Enjoy Coffee</h2>
-        <p>Fresh coffee and sweet desserts in a calm place.</p>
-        <button>View Menu</button>
+    <section id="hero" class="hero">
+        <div class="container hero-content">
+            <p class="subtitle">Fresh coffee & Cozy Space</p>
+            <h2>Enjoy a Relaxing Time at Cafe Kato</h2>
+            <p>
+                Handcrafted coffee, homemade desserts, and a warm atmosphere.
+                Enjoy a peaceful moment at Cafe Kato.
+            </p>
+            <a href="#menu" class="btn">View Menu</a>
+        </div>
     </section>
 
-    <section class="menu">
-        <div class="card">
-            <h3>Coffee</h3>
-            <p>Freshly brewed coffee every day.</p>
-        </div>
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p> 
+                Cafe Kato is a small neighborhood cafe focused on quality coffee
+                and a relaxing environment. We carefully select our beans and
+                prepare eace drink with attention to detail.
 
-        <div class="card">
-            <h3>Cake</h3>
-            <p>Soft and sweet desserts for your break time.</p>
+                Whether you want to work quietly, meet friends, or simply enjoy
+                a peaceful moment, our cafe is the perfect place for you.
+            </p>
         </div>
-        <div class="card">
-            <h3>Sandwich</h3>
-            <p>Light meals made with simple ingredients.</p>
+    </section>
+
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2>Our Menu</h2>
+
+            <div class="menu-grid">
+                <div class="card">
+                    <h3>Coffee</h3>
+                    <p>Carefully brewed coffee using high-quality beans.</p>
+                </div>
+                
+                <div class="card">
+                    <h3>Desserts</h3>
+                    <p>Fresh homemade cakes that perfectly match our drinks.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Light Meals</h3>
+                    <p>Simple and satisfying sandwiches made with fresh ingredients.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <h2>Why Choose Us</h2>
+
+            <div class="features-grid">
+                <div class="card">
+                    <h3>Calm Atmosphere</h3>
+                    <p>A quiet and comfortable space to relax or focus.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Fresh Ingredients</h3>
+                    <p>We use carefully selected ingredients for every menu item.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Friendly Service</h3>
+                    <p>Our staff always welcomes you with a warm smile.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery">
+        <div class="container">
+            <h2>Gallery</h2>
+
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=800&q=80" alt="Cafe interior" />
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80" alt="Cup of coffee" />
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=800&q=80" alt="Coffee and dessert" />
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80" alt="Cafe food" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="access">
+        <div class="container">
+            <h2>Access</h2>
+            <p>1-2-3 Sample Street, Tokyo</p>
+            <p>Open: 9:00 AM - 8:00 PM</p>
+            <p>Closed: Tuesday</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Email: hello@cafekato.com</p>
+            <p>Phone: 03-1234-5678</p>
+            <p>Open: 9:00 - 20:00</p>
+            <p>Closed: Tuesday</p>
         </div>
     </section>
 
     <footer>
-        <p>© 2026 Cafe Kato</p>
+        <p>© 2026 Cafe Kato. All rights reserved.</p>
     </footer>
+
+
     
 </body>
 </html>
