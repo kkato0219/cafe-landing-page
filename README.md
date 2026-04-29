@@ -24,5 +24,5 @@ https://kkato0219.github.io/cafe-landing-page/
 
 ## Screenshot
 ![hero section](assets/hero.png)
-![menu section](assets/hero.png)
+![menu section](assets/menu.png)
 ![gallery section](assets/gallery.png)
